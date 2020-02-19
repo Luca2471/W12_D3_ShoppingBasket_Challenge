@@ -1,19 +1,19 @@
 import org.junit.Before;
 import org.junit.Test;
 
-import java.util.ArrayList;
-
 import static org.junit.Assert.assertEquals;
 
 public class ShoppingBasketTest {
 
     ShoppingBasket shoppingBasket;
-    Product product;
+    Product product1;
+    Product product2;
 
     @Before
     public void before() {
         shoppingBasket = new ShoppingBasket();
-        product = new Product("Eggs", 5.50);
+        product1 = new Product("Eggs", 5);
+        product2 = new Product("Salmon", 5);
     }
 
     @Test
@@ -23,24 +23,35 @@ public class ShoppingBasketTest {
 
     @Test
     public void canAddproductToShoppingBasket() {
-        shoppingBasket.addProduct(product);
+        shoppingBasket.addProduct(product1);
         assertEquals(1, shoppingBasket.getNumberOfProducts());
     }
 
     @Test
     public void canRemoveFromShoppingBasket() {
-        shoppingBasket.addProduct(product);
-        shoppingBasket.addProduct(product);
-        shoppingBasket.removeProduct(product);
+        shoppingBasket.addProduct(product1);
+        shoppingBasket.addProduct(product2);
+        shoppingBasket.removeProduct(product1);
         assertEquals(1, shoppingBasket.getNumberOfProducts());
     }
 
     @Test
     public void canEmptyBasket() {
-        shoppingBasket.addProduct(product);
-        shoppingBasket.addProduct(product);
+        shoppingBasket.addProduct(product1);
+        shoppingBasket.addProduct(product2);
         shoppingBasket.clearBasket();
         assertEquals(0, shoppingBasket.getNumberOfProducts());
     }
+
+    @Test
+    public void canReturnTotalPrice() {
+        shoppingBasket.addProduct(product1);
+        shoppingBasket.addProduct(product2);
+        assertEquals(10, shoppingBasket.getTotalCost(), 0.01);
+    }
+
+
+    @Test
+
 
 }

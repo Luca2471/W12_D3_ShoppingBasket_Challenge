@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bc269b3-b7c0-4128-a5d2-8add95115492" name="Default Changelist" comment="" />
+    <list default="true" id="3bc269b3-b7c0-4128-a5d2-8add95115492" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/IDiscount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PercentageDiscountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Discount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PercentageDiscount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ShoppingBasket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ShoppingBasket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ShoppingBasketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ShoppingBasketTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Discount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ShoppingBasket.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ShoppingBasket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ShoppingBasketTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ShoppingBasketTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,9 +24,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -23,6 +41,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1Y1qcpoL1ZfvA8l5u1NqdjqhWJQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -30,22 +51,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="JUnit.ShoppingBasketTest.canEmptyBasket">
-    <configuration name="ProductTest.canGetPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeChallengeLab" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ProductTest" />
-      <option name="METHOD_NAME" value="canGetPrice" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ShoppingBasketTest.canReturnTotalPrice">
     <configuration name="ShoppingBasketTest.ShoppingBasketStartsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeChallengeLab" />
       <option name="PACKAGE_NAME" value="" />
@@ -86,13 +98,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ShoppingBasketTest.canReturnTotalPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeChallengeLab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ShoppingBasketTest" />
+      <option name="METHOD_NAME" value="canReturnTotalPrice" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ShoppingBasketTest.canReturnTotalPrice" />
         <item itemvalue="JUnit.ShoppingBasketTest.canEmptyBasket" />
         <item itemvalue="JUnit.ShoppingBasketTest.canRemoveFromShoppingBasket" />
         <item itemvalue="JUnit.ShoppingBasketTest.canAddproductToShoppingBasket" />
         <item itemvalue="JUnit.ShoppingBasketTest.ShoppingBasketStartsEmpty" />
-        <item itemvalue="JUnit.ProductTest.canGetPrice" />
       </list>
     </recent_temporary>
   </component>
@@ -114,29 +136,29 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="319" y="126" key="#File_and_Code_Templates/0.23.1440.877@0.23.1440.877" timestamp="1582121737945" />
-    <state x="319" y="126" key="#Project_Structure" timestamp="1582121403224">
+    <state x="319" y="126" key="#Project_Structure" timestamp="1582126797808">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="319" y="126" key="#Project_Structure/0.23.1440.877@0.23.1440.877" timestamp="1582121403224" />
+    <state x="319" y="126" key="#Project_Structure/0.23.1440.877@0.23.1440.877" timestamp="1582126797808" />
     <state x="532" y="168" key="#com.intellij.ide.util.MemberChooser" timestamp="1582121499114">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="532" y="168" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1582121499114" />
-    <state width="1396" height="230" key="GridCell.Tab.0.bottom" timestamp="1582123504874">
+    <state width="1396" height="230" key="GridCell.Tab.0.bottom" timestamp="1582127275236">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1396" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1582123504874" />
-    <state width="1396" height="230" key="GridCell.Tab.0.center" timestamp="1582123504873">
+    <state width="1396" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1582127275236" />
+    <state width="1396" height="230" key="GridCell.Tab.0.center" timestamp="1582127275235">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1396" height="230" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1582123504873" />
-    <state width="1396" height="230" key="GridCell.Tab.0.left" timestamp="1582123504872">
+    <state width="1396" height="230" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1582127275235" />
+    <state width="1396" height="230" key="GridCell.Tab.0.left" timestamp="1582127275235">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1396" height="230" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1582123504872" />
-    <state width="1396" height="230" key="GridCell.Tab.0.right" timestamp="1582123504874">
+    <state width="1396" height="230" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1582127275235" />
+    <state width="1396" height="230" key="GridCell.Tab.0.right" timestamp="1582127275236">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1396" height="230" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1582123504874" />
+    <state width="1396" height="230" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1582127275236" />
   </component>
 </project>
