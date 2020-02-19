@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3bc269b3-b7c0-4128-a5d2-8add95115492" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Y1qcpoL1ZfvA8l5u1NqdjqhWJQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RunManager" selected="JUnit.ShoppingBasketTest.canEmptyBasket">
+    <configuration name="ProductTest.canGetPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeChallengeLab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProductTest" />
+      <option name="METHOD_NAME" value="canGetPrice" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingBasketTest.ShoppingBasketStartsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeChallengeLab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ShoppingBasketTest" />
+      <option name="METHOD_NAME" value="ShoppingBasketStartsEmpty" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingBasketTest.canAddproductToShoppingBasket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeChallengeLab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ShoppingBasketTest" />
+      <option name="METHOD_NAME" value="canAddproductToShoppingBasket" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingBasketTest.canEmptyBasket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeChallengeLab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ShoppingBasketTest" />
+      <option name="METHOD_NAME" value="canEmptyBasket" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingBasketTest.canRemoveFromShoppingBasket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeChallengeLab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ShoppingBasketTest" />
+      <option name="METHOD_NAME" value="canRemoveFromShoppingBasket" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ShoppingBasketTest.canEmptyBasket" />
+        <item itemvalue="JUnit.ShoppingBasketTest.canRemoveFromShoppingBasket" />
+        <item itemvalue="JUnit.ShoppingBasketTest.canAddproductToShoppingBasket" />
+        <item itemvalue="JUnit.ShoppingBasketTest.ShoppingBasketStartsEmpty" />
+        <item itemvalue="JUnit.ProductTest.canGetPrice" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3bc269b3-b7c0-4128-a5d2-8add95115492" name="Default Changelist" comment="" />
+      <created>1582120529550</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582120529550</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="319" y="126" key="#File_and_Code_Templates" timestamp="1582121737945">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="319" y="126" key="#File_and_Code_Templates/0.23.1440.877@0.23.1440.877" timestamp="1582121737945" />
+    <state x="319" y="126" key="#Project_Structure" timestamp="1582121403224">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="319" y="126" key="#Project_Structure/0.23.1440.877@0.23.1440.877" timestamp="1582121403224" />
+    <state x="532" y="168" key="#com.intellij.ide.util.MemberChooser" timestamp="1582121499114">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="532" y="168" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1582121499114" />
+    <state width="1396" height="230" key="GridCell.Tab.0.bottom" timestamp="1582123504874">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1396" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1582123504874" />
+    <state width="1396" height="230" key="GridCell.Tab.0.center" timestamp="1582123504873">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1396" height="230" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1582123504873" />
+    <state width="1396" height="230" key="GridCell.Tab.0.left" timestamp="1582123504872">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1396" height="230" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1582123504872" />
+    <state width="1396" height="230" key="GridCell.Tab.0.right" timestamp="1582123504874">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1396" height="230" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1582123504874" />
+  </component>
+</project>
